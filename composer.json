@@ -10,9 +10,9 @@
             "email": "dfj@am-online.com"
         },
     	{
-			"name": "AM-Online ApS",
-			"email": "developer@am-online.com"
-		},
+	    "name": "AM-Online ApS",
+	    "email": "developer@am-online.com"
+	}
     ],
     "require": {
         "yiisoft/yii2": "*",
