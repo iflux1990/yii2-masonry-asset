@@ -1,17 +1,17 @@
 <?php
 /**
- * @copyright Copyright (c); nerburish, 2016
+ * @copyright Copyright (c); iflux1990, 2017
  * @package yii2-masonry-asset
  */
 
-namespace nerburish\masonry;
+namespace iflux1990\masonry;
 
 use yii\web\AssetBundle;
 
 /**
  * Asset bundle for Masonry.js (http://masonry.desandro.com/)
  *
- * @package nerburish\masonry
+ * @package ilux1990\masonry
  */
 class MasonryAsset extends AssetBundle
 {
