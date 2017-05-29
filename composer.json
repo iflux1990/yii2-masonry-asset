@@ -16,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-		"bower-asset/jquery-masonry": "*"
+		"bower-asset/jquery-masonry": "4.2.0"
     },
     "autoload": {
         "psr-4": {
