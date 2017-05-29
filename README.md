@@ -4,6 +4,8 @@ Yii2 Masonry.js Asset
 Simple asset bundle for masonry.js jQuery plugin (http://masonry.desandro.com/)
 Masonry is a JavaScript grid layout library.
 
+Forked from https://github.com/nerburish/yii2-masonry-asset
+
 Installation
 ------------
 
@@ -12,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist nerburish/yii2-masonry-asset "*"
+php composer.phar require --prefer-dist iflux1990/yii2-masonry-asset "*"
 ```
 
 or add
 
 ```
-"nerburish/yii2-masonry-asset": "*"
+"iflux1990/yii2-masonry-asset": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -35,7 +37,7 @@ class AppAsset extends AssetBundle
     ...
     public $depends = [
         ...
-        'nerburish\masonry\MasonryAsset'
+        'iflux1990\masonry\MasonryAsset'
     ];
 }
 ```
@@ -44,7 +46,7 @@ or use it directly in a view
 
 ```
 <?php
-\nerburish\masonry\MasonryAsset::register($this);
+\iflux1990\masonry\MasonryAsset::register($this);
 ?>
 ```
 
