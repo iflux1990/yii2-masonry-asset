@@ -1,14 +1,18 @@
 {
-    "name": "nerburish/yii2-masonry-asset",
+    "name": "iflux1990/yii2-masonry-asset",
     "description": "Simple asset bundle for masonry.js (http://masonry.desandro.com/)",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","masonry","asset","jquery"],
     "license": "MIT",
     "authors": [
         {
-            "name": "nerburish",
-            "email": "nerburish@hotmail.com"
-        }
+            "name": "Daniel F Jensen",
+            "email": "dfj@am-online.com"
+        },
+    	{
+			"name": "AM-Online ApS",
+			"email": "developer@am-online.com"
+		},
     ],
     "require": {
         "yiisoft/yii2": "*",
@@ -16,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nerburish\\masonry\\": ""
+            "iflux1990\\masonry\\": ""
         }
     }
 }
